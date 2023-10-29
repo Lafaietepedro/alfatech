@@ -1,0 +1,76 @@
+main {
+    width: 100%;
+    @include flexCenterCenter;
+    .tabela-precos {
+        width: 100%;
+        padding: 50px;
+        @include flexCenterCenter
+    }
+
+    .celulas-centralizadas {
+        background-color: $white;
+    }
+
+    .tabela-servicos {
+        font-weight: bold;
+    }
+
+    table {
+        width: 60%;
+        height: 80vh;
+        background-color: $gray;
+        border-radius: 10px;
+        thead {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+    }
+
+    thead {
+        display: flex;
+        flex-direction: row;
+    }
+
+    tbody {
+        display: flex;
+        .td-titulo {
+            @include flexCenterCenter;
+            flex-direction: column;
+            width: 50%;
+            height: 20vh;
+        }
+    }
+
+    td {
+        display: flex;
+        padding: 15px;
+        border: 1px solid #f1f3f7;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 10vh;
+    }
+
+    .thead-tr {
+        display: flex;
+        margin-left: 250px;
+    }
+
+    tr {
+        display: flex;
+    }
+
+    .tabela-bigtechs {
+        padding-left: 70px;
+    }
+
+    th {
+        width: 50%;
+        padding: 10px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
