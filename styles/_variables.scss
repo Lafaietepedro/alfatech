@@ -1,0 +1,16 @@
+$white: white;
+$blue: #2f86d6;
+$dark: #233032;
+$gray: #f1f3f7;
+
+@mixin flexCenterAround {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin flexCenterCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

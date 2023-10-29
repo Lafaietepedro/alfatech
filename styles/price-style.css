@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #2f86d6;
+  width: 100%;
+  height: 15vh;
+}
+header span {
+  color: #2f86d6;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo img {
+  width: 10%;
+  padding-right: 10px;
+}
+header .logo p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+header .links-topo a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .tabela-precos {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .celulas-centralizadas {
+  background-color: white;
+}
+main .tabela-servicos {
+  font-weight: bold;
+}
+main table {
+  width: 60%;
+  height: 80vh;
+  background-color: #f1f3f7;
+  border-radius: 10px;
+}
+main table thead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+main thead {
+  display: flex;
+  flex-direction: row;
+}
+main tbody {
+  display: flex;
+}
+main td {
+  display: flex;
+  padding: 15px;
+  border: 1px solid #f1f3f7;
+  align-items: center;
+  justify-content: center;
+}
+main .thead-tr {
+  display: flex;
+  margin-left: 250px;
+}
+main .tabela-bigtechs {
+  padding-left: 70px;
+}
+main th {
+  width: 50%;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 35vh;
+}
+footer span {
+  color: #2f86d6;
+}
+footer .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .logo .texto-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+footer .logo img {
+  width: 10%;
+  padding-right: 10px;
+}
+footer .logo p {
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .rodape {
+  width: 100%;
+  height: 25vh;
+  background-color: #2f86d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .rodape p {
+  color: white;
+}
+footer .autoria {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .autoria p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=price-style.css.map */
